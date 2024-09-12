@@ -1,3 +1,4 @@
+package Pattern;
 public class NumberChangingPyramid {
     public static void fun(int n)
     {

@@ -1,3 +1,4 @@
+package Lambda;
 import Lambda.MarksEnum.Marks;
 
 public class isStudentMinMarks implements FilterStudents {

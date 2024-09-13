@@ -1,3 +1,4 @@
+package Lambda;
 public class Demo02 {
     public static void main(String[] args) {
         Test t=(var)->

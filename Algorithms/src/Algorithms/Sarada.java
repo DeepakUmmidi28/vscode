@@ -1,4 +1,5 @@
 package Algorithms;
+
 public class Sarada
 {
 	public static void main(String[] args) {

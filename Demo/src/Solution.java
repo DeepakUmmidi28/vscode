@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import Arrays.Solution;
-
 public class Solution {
     public static void main(String[] args) {
         Projector res = Solution.getProjectorByMaxPrice();

@@ -1,5 +1,3 @@
-import Collections.Test;
-
 package Algorithms;
 public class Test {
     public static void main(String[] args) {

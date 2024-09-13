@@ -1,4 +1,5 @@
 package Algorithms;
+
 public class FindMissingPositive {
     public static int firstMissingPositive(int[] nums) {
         sort(nums);

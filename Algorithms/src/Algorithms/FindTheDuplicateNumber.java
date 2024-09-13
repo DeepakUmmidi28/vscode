@@ -1,4 +1,5 @@
 package Algorithms;
+
 public class FindTheDuplicateNumber {
     public static int findDuplicate(int[] nums) {
         sort(nums);

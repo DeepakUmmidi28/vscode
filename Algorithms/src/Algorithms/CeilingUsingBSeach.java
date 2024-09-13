@@ -1,4 +1,5 @@
 package Algorithms;
+
 public class CeilingUsingBSeach {
     public static void main(String[] args) {
         //int arr[]={99,67,49,46,32,1};

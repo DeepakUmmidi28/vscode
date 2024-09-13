@@ -1,4 +1,5 @@
 package Algorithms;
+
 public class FindInMountainArray {
     public static  int peakIndexInMountainArray(int[] arr) {
         int start=0;

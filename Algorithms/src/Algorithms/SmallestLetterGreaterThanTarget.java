@@ -1,4 +1,5 @@
 package Algorithms;
+
 public class SmallestLetterGreaterThanTarget {
     public static void main(String[] args) {
         char arr[]={'c','f','j'};

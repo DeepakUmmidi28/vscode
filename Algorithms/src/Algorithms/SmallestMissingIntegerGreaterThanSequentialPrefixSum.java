@@ -1,4 +1,5 @@
 package Algorithms;
+
 public class SmallestMissingIntegerGreaterThanSequentialPrefixSum {
     public int missingInteger(int[] nums) {
         int sum=nums[0],i;

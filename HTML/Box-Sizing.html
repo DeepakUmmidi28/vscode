@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Sizing</title>
+    <style>
+        .content{
+            box-sizing: content-box;
+            width: 800px;
+            background-color: blueviolet;
+            text-align: center;
+            border: 2px solid black;
+            padding: 4px;
+        }
+
+        .main{
+            background-color: yellow; 
+            width: 800px; 
+            text-align: center; 
+            height: 80px;
+        }
+
+        .border{
+            box-sizing: border-box;
+            width: 800px;
+            text-align: center;
+            background-color: #f9dbdb;
+            border: 2px solid black;
+            padding: 4px;
+        }
+        
+        .border h3{
+            margin: 0%;
+        }
+
+        .content h3{
+            margin: 0%;
+        }
+
+        .main h3{
+            margin: 0%; 
+            padding: 28px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h3>Content-Box</h3>
+    </div>
+    <div class="main">
+        <h3>Hello world</h3>
+    </div>
+    <div class="border">
+        <h3>Border-Box</h3>
+    </div>
+</body>
+</html>

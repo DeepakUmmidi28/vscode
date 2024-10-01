@@ -1,5 +1,13 @@
-HTML shortcuts 
+HTML 
 
-commenting----- ctrl+k ctrl+c
+commenting----- ctrl+k ctrl+c (or) ctrl+/
 duplicate command on the next line------- ctrl+alt+down
+
+html entities--some default symbols that can be used
+eg: &nbsp; :- non-breakable space 
+
+html semantic tags-header, footer, nav, aside, details, figure, figcaption, summary
+
+details is used for creating collapsible sections
+summary is used for assigning a heading to the details section
 

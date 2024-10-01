@@ -1,21 +1,49 @@
-.Div_Style{
-    padding: 5px;
-    margin: 5px;
-    display:inline-block;
+*{
+    box-sizing: border-box;
 }
 
 .Header_Style{
     text-align: center;
     color: black;
-    font-size:x-large;
+    font-size:38px;
+    margin: 32px 0px;
 }
 
-.image_style{
-    width: 200px;
+table, th, td{
+    border: 1px solid black;
+    width: 95vw;
+    margin: auto;
+    border-collapse: collapse;
+    padding: 8px 10px;
+    text-align: center;
 }
 
-.table_style{
-    border: 1cap;
-    padding: 1.5%;
-    margin: 1%;
+div > p{
+    font-size: larger;
+    margin: 8px 8px;
+}
+
+div > h2{
+    padding-bottom: 3px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 98vw;
+}
+
+.flex-item{
+    /* border: 2px solid red; */
+}
+
+hr{
+    margin: 3px 0px;
+}
+
+img{
+    padding-right: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 28px;
 }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energym Fitness Center</title>
+    <link rel="stylesheet" href="Fitness.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Oswald:wght@200..700&family=Pacifico&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="LeftDiv">
+            <img src="Energym Logo.jpeg" alt="">
+        </div>
+        <div class="MidDiv">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="RightDiv">
+            <button>Call us</button>
+            <button>Email us</button>
+        </div>
+    </header>
+    <div class="quote">
+        <h2>Join the cult..!</h2>
+    </div>
+    <div class="container">
+        <h3>Enter your Details</h3>
+        <form action="backend.php">
+            <div>
+                <input type="text" class="input" name="myName" placeholder="Enter your Name">
+            </div>
+            <div>
+                <input type="text" class="input" name="myEmail" placeholder="Enter your Email">
+            </div>
+            <div>
+                <input type="text" class="input" name="myPhone" placeholder="Enter your Contact number">
+            </div>
+            <div>
+                <input type="text" class="input" name="myLocality" placeholder="Enter your Locality">
+            </div>
+            <div>
+                <input type="text" class="input" name="myAge" placeholder="Enter your Age">
+            </div>
+            <div class="rdo">
+                Gender : Male <input type="radio" name="myGender" > Female <input type="radio" name="myGender"> Others <input type="radio" name="myGender">
+            </div>
+            <div class="rdo">
+                Physically Fit ? Yes<input type="Radio" name="myEligibility" > No<input type="Radio" name="myEligibility">
+            </div>
+            <div>
+                <input type="submit" class="btn" value="Submit Now">
+            </div>
+            <!-- <div>
+                <input type="Reset" class="btn">
+            </div> -->
+        </form>
+    </div>
+</body>
+
+</html>

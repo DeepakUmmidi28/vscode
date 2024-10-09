@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .container{
+            background-color: yellow;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            position: relative;
+            /* animation-name: DeepakAnim;
+            animation-duration: 2s;
+            animation-iteration-count: 3; */
+            animation: DeepakAnim 2s 1;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes DeepakAnim {
+            from{
+                width: 200px;
+            }
+            to{
+                width: 500px;
+            }
+            /* 0%{
+                width: 200px;
+            }
+            10%{
+                width: 300px;
+            }
+            20%{
+                width: 350px;
+            }
+            50%{
+                width: 500px;
+            }
+            80%{
+                width: 600px;
+            }
+            100%{
+                width: 800px;
+            } */
+
+            /* 0%{
+                top: 0px;
+                left: 0px;
+            }
+            30%{
+                top: 200px;
+                left: 0px;
+            }
+            60%{
+                top: 200px;
+                left: 200px;
+            }
+            90%{
+                top: 0px;
+                left: 200px;
+            } */
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            This is a box
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar on scroll</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 3000px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: sans-serif;
+        } 
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            position: sticky;
+            top: 0;
+        }
+        .item{
+            margin: 12px 2px;
+            padding: 2px 2px;
+        }
+        header{
+            background: url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chanwalrus-958545.jpg&fm=jpg') no-repeat 50% 50%;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li class="item"><a href="">Home</a></li>
+            <li class="item"><a href="">About</a></li>
+            <li class="item"><a href="">Services</a></li>
+            <li class="item"><a href="">Contact us</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus et iure est ad enim animi autem veritatis alias nobis sint tempora aspernatur dolorem blanditiis, vel harum aperiam, fugiat suscipit laborum. Voluptate vero, cumque sit dolorem itaque distinctio. Minus iste, corrupti recusandae consectetur expedita fuga eum dolor. Illo voluptate ab repellendus.
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque iusto reiciendis laboriosam, voluptatum enim quasi corporis aliquam optio rem, adipisci non, sint nam facilis est doloremque laudantium repellat ipsum?
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium totam, nostrum ex vitae voluptatem voluptate ad doloremque tenetur, dignissimos pariatur laudantium excepturi quas suscipit fuga nesciunt cupiditate itaque voluptas consectetur voluptates! Ducimus quisquam provident ea rem vel accusantium a, beatae facere! Tenetur veritatis fugit unde id fugiat. Maiores rerum incidunt quae reprehenderit vel officiis saepe illum, dicta nam, facere repellat?
+        </p>
+    </div>
+</body>
+
+</html>

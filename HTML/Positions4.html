@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions and Pseudo-Selectors</title>
+    <style>
+        .main{
+            border: 2px solid black;
+        }
+        .box{
+            height: 150px;
+            width: 150px;
+            background-color: antiquewhite;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            display: flex;
+        }
+        #First{
+            background-color: grey;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .first{
+            background-color: grey;
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* border: 10px solid black; */
+        }
+        #Second{
+            
+        }
+        #third{
+            background-color: aqua;
+        }
+        .rectangle{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="box" id="First">
+                First
+            </div>
+            <div class="box" id="Second">
+                Second
+            </div>
+            <div class="box" id="third">
+                Third
+            </div>
+        </div>
+        <div class="rectangle">
+            <div class="box first" >
+                First
+            </div>
+        </div>
+    </div>
+</body>
+</html>

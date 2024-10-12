@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            position: relative;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            padding: 5px;
+            border: 2px solid red;
+            width: 100vw;
+            height: 100vh;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                /* width: 100vw; */
+                /* Full viewport width */
+                /* height: 100vh; */
+                /* Full viewport height */
+                background: url('../Fitness.jpg') no-repeat center center;
+                background-size: cover;
+                opacity: 0.4;
+                z-index: -1;
+                left: 0;
+            }
+        }
+
+        .container h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>
+            Container
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus atque labore alias laborum modi
+            repudiandae deserunt, quas reprehenderit laboriosam consequatur obcaecati saepe ullam et natus. Cumque,
+            dignissimos nam magni ex illum eaque alias animi. Tempore cumque nihil dolores modi praesentium incidunt
+            excepturi nemo natus repellendus eum. Dolorem ullam rem autem in consequatur dicta est doloremque ipsam illo
+            at, tempore odio provident facilis officiis veniam beatae cupiditate accusamus sit. Possimus, praesentium
+            quasi eveniet aliquid ab suscipit, fugiat deserunt similique ut voluptatum laboriosam fuga hic! Ex accusamus
+            magni suscipit iste ad amet vero ea laboriosam, accusantium corporis ducimus saepe animi! Repellendus nemo
+            exercitationem, reprehenderit qui rem, animi, id eos nulla voluptatum sint unde provident recusandae optio
+            assumenda excepturi ex ab sed dicta explicabo modi. Ea aliquid nihil deleniti beatae unde sunt iure
+            voluptatem reprehenderit natus quidem, aut eligendi dicta dolor odit quis suscipit! Ratione, neque voluptas
+            inventore porro voluptatibus, repellat non distinctio obcaecati saepe, quisquam ipsum illo. Ipsam quia sit
+            ratione? Beatae consequatur aliquam velit ea laboriosam. Cupiditate nisi, nihil similique enim a delectus
+            necessitatibus aspernatur, error dolore, asperiores dolor laudantium? Modi officia, magnam molestias
+            perferendis ut odio nobis. Autem ea vel consequuntur quos distinctio, voluptas dignissimos voluptatem unde
+            accusamus fugit fuga sed. Numquam assumenda aspernatur voluptate aliquid porro quo enim molestias, veritatis
+            obcaecati iure tenetur nam harum? Nobis voluptatibus, provident temporibus atque, libero accusantium cum rem
+            illum veritatis nemo odio numquam rerum laboriosam in corporis omnis expedita unde ipsum reiciendis illo.
+            Cumque saepe, qui odio libero esse neque veniam at ab laboriosam amet sunt recusandae quasi, enim
+            exercitationem iusto asperiores. Nihil, obcaecati nulla voluptate, id quibusdam modi illum ex aperiam enim
+            provident qui magnam molestias cumque ad eos necessitatibus ea impedit. Alias nesciunt officia reiciendis
+            debitis aspernatur aliquam non. Cumque autem consequuntur deserunt omnis sapiente, totam facere expedita
+            optio laboriosam eaque.
+        </p>
+    </div>
+</body>
+
+</html>

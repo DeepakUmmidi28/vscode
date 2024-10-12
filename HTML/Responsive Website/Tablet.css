@@ -1,0 +1,19 @@
+#navbar{
+    flex-direction: column;
+}
+
+#Home h2{
+    font-size: 40px;
+}
+
+#Home p{
+    font-size: 20px;
+}
+
+#Services{
+    flex-direction: column;
+}
+
+#Services .box img{
+    width: 264px;
+}

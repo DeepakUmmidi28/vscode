@@ -1,0 +1,11 @@
+#navbar{
+    position: relative;
+}
+#Home{
+    position: relative;
+    height: 1205px;
+}
+#Home p{
+    padding: 0px 20px ;
+    text-align: justify;
+}

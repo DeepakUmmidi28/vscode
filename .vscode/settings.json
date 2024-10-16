@@ -15,7 +15,8 @@
         "Arrays/src",
         "Algorithms/src",
         "Lambda2/src",
-        "Lambda\\src"
+        "Lambda\\src",
+        "OOPS/src"
     ],
     "java.project.referencedLibraries": []
 }

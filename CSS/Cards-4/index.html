@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Effect</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            height: 100vh;
+            background-color: #030b0d;
+            display: grid;
+            place-items: center;
+            font-family: "Inter", sans-serif;
+            color: white;
+        }
+
+        /* Card Styling */
+
+        .card {
+            width: 500px;
+            /* aspect-ratio: 1 / 0.7; */
+            border-radius: 8px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .card::after {
+            content: "";
+            position: absolute;
+            border: 2px solid white;
+            inset: 0;
+            opacity: 1;
+            border-radius: inherit;
+            transition: 0.4s ease-in-out;
+        }
+        
+        .card:hover::after {
+            opacity: 1;
+            inset: 20px;
+        }
+        
+        /* Image and Styling */
+        
+        .card .image-box {
+            width: 100%;
+            height: 100%;
+            border-radius: inherit;
+        }
+        
+        .card .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 90%;
+            border-radius: inherit;
+            transition: 0.5s ease-in-out;
+        }
+        
+        .card:hover img {
+            filter: grayscale(1) brightness(0.4);
+        }
+
+        /* Content Styling */
+
+        .content {
+            width: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .content h2,
+        .content p {
+            opacity: 0;
+            transition: 0.4s 0.2s ease;
+        }
+
+        .content h2 {
+            margin-bottom: 12px;
+            scale: 0.7;
+        }
+
+        .card:hover .content h2 {
+            scale: 1;
+            opacity: 1;
+        }
+
+        .content p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #d1d1d1;
+            transform: translateY(50%);
+        }
+
+        .card:hover .content P {
+            opacity: 1;
+            transform: translateY(0);
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image-box">
+            <img src="./Gallery-2/images/1.jpg" alt="spiderman">
+        </div>
+        <div class="content">
+            <h2>
+                Spider-man
+            </h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate ut a voluptatum tempora
+                nostrum! Vero placeat voluptatum impedit qui.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

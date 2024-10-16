@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            height: 400px;
+            display: flex;
+            gap: 1.2rem;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 500ms;
+        }
+
+        .card {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover .inner{
+            width: 60%;
+            height: 25%;
+            background-color: black;
+            color: white;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+        .card:hover img{
+            scale: 0.82;
+        }
+
+        .inner {
+            width: 0%;
+            height: 0%;
+            color: black;
+            background-color: white;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 500ms;
+            border-radius: 10px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .top-right{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .bottom-left{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-img">
+                <img src="./Gallery/imgs/2.jpg" alt="">
+            </div>
+            <div class="top-left inner">
+                Deepak
+            </div>
+            <div class="bottom-right inner">
+                Ummidi
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="./Gallery/imgs/3.jpg" alt="">
+            </div>
+            <div class="bottom-left inner">
+                Deepak
+            </div>
+            <div class="bottom-right inner">
+                Ummidi
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="./Gallery/imgs/4.jpg" alt="">
+            </div>
+            <div class="top-right inner">
+                Deepak
+            </div>
+            <div class="bottom-left inner">
+                Ummidi
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

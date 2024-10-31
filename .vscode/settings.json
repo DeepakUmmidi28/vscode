@@ -1,22 +1,8 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
-    "java.dependency.packagePresentation": "hierarchical",
+    "java.dependency.packagePresentation": "flat",
     "java.project.sourcePaths": [
-        "Wrapper Classes/src",
-        "Threads/src",
-        "Sorting/src",
-        "Recursions/src",
-        "Patterns/src",
-        "Loops/src",
-        "Lambda/src",
-        "File Handling/src",
-        "Demo/src",
-        "Collections/src",
-        "Arrays/src",
-        "Algorithms/src",
-        "Lambda2/src",
-        "Lambda\\src",
-        "OOPS/src"
+        "Arrays/src"
     ],
     "java.project.referencedLibraries": []
 }

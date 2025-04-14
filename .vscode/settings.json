@@ -4,5 +4,8 @@
     "java.project.sourcePaths": [
         "Arrays/src"
     ],
-    "java.project.referencedLibraries": []
+    "java.project.referencedLibraries": [],
+    "files.watcherExclude": {
+        "**/target": true
+    }
 }

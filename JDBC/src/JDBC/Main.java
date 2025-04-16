@@ -6,7 +6,7 @@ public class Main {
     private static final String password="root";
     public static void main(String[] args) {
         try {
-            Class.forN ame("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

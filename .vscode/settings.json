@@ -7,5 +7,6 @@
     "java.project.referencedLibraries": [],
     "files.watcherExclude": {
         "**/target": true
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
